@@ -1,5 +1,5 @@
 # YoloV5 Face Mask Detection
-
+Yolov5 based model to detect if a person is wearing a mask or not.
 # Depencies
 Download the yolov5 github repo, move into the main directory and run "pip install -r requirements.txt" to install the necessary libraries.
 
@@ -12,6 +12,9 @@ Download the yolov5 github repo, move into the main directory and run "pip insta
 5. At the end of your training, the model will specify where you can find the trained model. Mostly saved under "run/train/exp". In the last "exp" folder, you can your current training result.
 6. To run the inference. we commonly use the last saved model titled last.pt: python detect.py --source path/to/test/images --weights path/to/your/weights --img 416 --save-txt --save-conf
 7. Results from your inference run above can be seen in runs/detect/exp/labels.
+
+# Metrics
+![metrics](https://user-images.githubusercontent.com/48753146/155943265-f38eda35-fbbd-4c49-a67d-43aeae829d44.png)
 
 # Inference
 ![result_2](https://user-images.githubusercontent.com/48753146/155939653-d1fca907-19b8-447b-a092-bc996d930eda.png)

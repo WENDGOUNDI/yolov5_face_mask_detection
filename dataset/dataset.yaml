@@ -1,0 +1,8 @@
+
+#path
+train: train/images  # train images 
+val: val/images # val images 
+
+# Classes
+nc: 2  # number of classes
+names: [ 'mask', 'nomask']  # class names
